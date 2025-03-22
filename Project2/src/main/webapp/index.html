@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title> Página Inicial </title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+	</head>
+	
+	<body>
+		<section>
+			<h1> Cadastre-se na Lista de Notícias </h1>
+			
+			<form action="register" method="post">
+				<label for="name"> Nome: </label>
+				<input type="text" name="name" id="name">
+				
+				<label for="email"> Email: </label>
+				<input type="email" name="email" id="email">
+				
+				<fieldset>
+					<legend> Quais são seus interesses? </legend>
+					
+					<input type="checkbox" name="options" id="policy" value="Política">
+					<label for="policy"> Política </label>
+					
+					<input type="checkbox" name="options" id="sport" value="Esporte">
+					<label for="sport"> Esporte </label>
+					
+					<input type="checkbox" name="options" id="culture" value="Cultura">
+					<label for="culture"> Cultura </label>
+					
+					<input type="submit" value="ENVIAR">
+					<input type="reset" value="LIMPAR">
+				</fieldset>
+			</form>
+		</section>
+	</body>
+</html>
