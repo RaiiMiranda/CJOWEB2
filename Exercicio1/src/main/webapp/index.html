@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<title> Formulário de Inscrição </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	
+	<body>
+		<section>
+			<fieldset> 
+				<h1> Cursos de Extensão </h1>
+			</fieldset> 
+			
+			<br>
+		
+			<form action="formulario" method="post">
+				<label for="name"> Nome: </label>
+				<input type="text" name="name" id="name">
+				
+				<br>
+				
+				<label for="email"> E-mails: </label>
+				<input type="email" name="email" id="email" multiple>
+				
+				<br>
+				
+				<fieldset>
+					<legend> Cursos de Interesse </legend>
+					
+					<input type="checkbox" name="options" id="policy" value="Curso de Bootstrap">
+					<label for="bootstrap"> Curso de Bootstrap </label>
+					
+					<input type="checkbox" name="options" id="sport" value="Curso de Animações em CSS 3">
+					<label for="animacaoCSS"> Curso de Animações em CSS 3 </label>
+					
+					<input type="checkbox" name="options" id="culture" value="Curso de Design Patterns">
+					<label for="designPatterns"> Curso de Design Patterns </label>
+				</fieldset>
+				
+				<br>
+				
+				<input type="submit" value="ENVIAR">
+			</form>
+		</section>
+	</body>
+</html>

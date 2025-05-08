@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+
+@charset "UTF-8";
+
+*{
+	box-sizing: border-box; /* pra encaixar os inputs dentro do form, pq tava saindo pra fora */
+}
+
+section{
+	border-radius: 10px;
+	background-color: #e1e1e1;
+	width: 50%;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+section h1{
+	text-align: center;
+	margin: 0;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #363636;
+}
+
+section form label, legend{
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	color: #363636;
+}
+
+input{
+	display: block;
+	width: 100%;
+	border-radius: 4px;
+	margin: 8px 0;
+	padding: 12px 20px;
+	outline: none;
+}
+
+input[type=text], input[type=email]{
+	border: 1px solid #bbbbbb;
+}
+
+input[type=checkbox]{
+	display: inline; /* deixa os label e os input de checkbox na mesma linha */
+	width: 5%;
+}
+
+input[type=submit]{
+	background-color: #c21818;
+	color: white;
+	border: 1px solid #bbbbbb;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+input[type=submit]:hover{
+	background-color: #af1616;
+}
+
+input[type=text]:focus, input[type=email]:focus{
+	border: 1px solid #5a5a5a;
+}
+
+input[type=text]:hover, input[type=email]:hover{
+	background-color: #f9f9f9;
+}

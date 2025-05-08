@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap');
+
+@charset "UTF-8";
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333; 
+}
+
+.all{
+	border-radius: 10px;
+	width: 20%;
+	margin: 10px auto;
+	padding: 50px;
+	
+	background-color: #333333;
+	box-shadow: 0 0 10px black;
+}
+
+.titles h1, .titles h3, .all h1{
+	text-align: center;
+	margin: 0;
+}
+
+.titles h1, .all h1{
+	font-size: 30px;
+	color: #ce4676;
+	text-shadow: 2px 2px 10px black;
+}
+
+.titles h3{
+	color: #A1A1A1;
+	font-size: 18px;
+}
+
+h1, h3, label, input[type=date], td, th, a{
+	font-family: "Rowdies", sans-serif;
+	font-weight: 300;
+	color: #d1d1d1;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+th{
+	color: #A1A1A1;
+}
+
+a{
+	color: #E04C81;
+}
+
+a:hover{
+	color: #ce4676	;
+}
+
+form h3{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+}
+
+#description, #date{
+	margin-bottom: 15px;
+	background-color: #333333;
+	border: none;
+	border-bottom: 1px solid white;
+}
+
+input[type=submit]{
+	background-color: #b73E69;
+	color: #d1d1d1;
+ 	font-family: "Rowdies", sans-serif;
+	font-weight: 700;
+	font-size: 15px;
+	border-color: #c74472;
+	border-radius: 5px;
+    cursor: pointer;
+    
+	padding: 5px;
+	display: block;
+    margin: 10px auto;
+	width: 50%;
+}
+
+input[type=submit]:hover{
+	background-color: #AB3A62;
+
+}

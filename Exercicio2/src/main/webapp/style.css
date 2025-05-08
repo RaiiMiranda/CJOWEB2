@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap');
+
+@charset "UTF-8";
+
+/* PÁGINA INDEX */
+*{
+	box-sizing: border-box; /* pra encaixar os inputs dentro do form, pq tava saindo pra fora */
+}
+
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+	border-radius: 10px;
+	background-image: linear-gradient(to bottom right, #d71fef 3%, #0083f5 100%);
+	width: 30%;
+	margin: 10px auto;
+	padding: 50px;
+}
+
+section h1{
+	text-align: center;
+	margin: 0;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	font-style: normal;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+section form label{
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 15px;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+
+input{
+	display: block;
+	width: 100%;
+	border-radius: 20px;
+	margin: 8px 0;
+	padding: 12px 20px;
+	outline: none;
+}
+
+input[type=email], input[type=password]{
+	border: 1px solid #bbbbbb;
+}
+
+input[type=submit]{
+	background-color: #b916cf;
+	color: white;
+	border: none;
+	box-shadow: 2px 2px 4px #2b2b2b;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+    cursor: pointer;
+    
+    display: block;
+    margin: 10px auto;
+	width: 30%;
+}
+
+input[type=submit]:hover{
+	background-color: #aa16bf;
+}
+
+input[type=email]:focus, input[type=password]:focus{
+	border: 1px solid #5a5a5a;
+}
+
+input[type=email]:hover, input[type=password]:hover{
+	background-color: #f0f0f0;
+}
+
+/* PÁGINAS de ERROR e de BOAS-VINDAS */
+header{
+	display: flex;
+	flex-direction: column;
+	
+	border-radius: 10px;
+	background-color: #eeeeee;
+	width: 30%;
+	margin: 10px auto;
+	padding: 50px;
+}
+
+header h2, h4{
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	font-family: "Libre Baskerville", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+header h2{
+	color: #c20827;
+}
+
+header h4{
+	color: #272122;
+}
